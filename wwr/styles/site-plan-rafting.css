@@ -3,11 +3,11 @@
 :root {
     --primary-color: #0f0f0f;
     --secondary-color: #d07e2c;
-     --accent1-color: #CBCE3E;
+    --accent1-color: #CBCE3E;
     --accent2-color: #909f3a;
 
     --headinf-font: 'Playfair Display', serif;
-     --paragraph-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
 
     --nav-background-color: #d07e2c;
     --nav-link-color: #0f0f0f;
