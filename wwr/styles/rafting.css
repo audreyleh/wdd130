@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-:root {
+
+:root{
     --primary-color: #0f0f0f;
     --secondary-color: #d07e2c;
     --accent1-color: #CBCE3E;
@@ -15,44 +16,46 @@
     --nav-hover-background-color: #909f3a;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--headinf-font);
+    color: var(--primary-color)
+}
+.texto {
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    font-size: 3rem;
+    background-color: beige;
+    background-size: cover;
+    width: 350px;
+}
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: var(--headinf-font);
-    color: var(--primary-color)
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
+.hero h1{position: absolute;}
 
-header{
-    padding: 20px;
-    background-color: var(--accent1-color);
+.hero article{
+    position: absolute;
+    text-align: center;}
+
+a:link {text-decoration: none;}
+
+article *:first-child {
+    
+    width: 200px;
+    float: right;
+
 }
 
 p{
-    padding: 25px;
-}
-
-nav{
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-}
-
-nav a{
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-}
-
-nav a:link, nav a:visited {
-    color: var(--nav-link-color)
-}
-
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+    padding: 10px;
 }
