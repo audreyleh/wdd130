@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: var(--headinf-font);
     color: var(--primary-color)
 }
-.texto {
+/* .title {
     position: absolute;
     top: 350px;
     left: 300px;
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: beige;
     background-size: cover;
     width: 350px;
-}
+} */
 
 body {
     font-family: var(--paragraph-font);
