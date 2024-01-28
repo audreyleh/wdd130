@@ -40,20 +40,20 @@ body {
     display: block;
     width: 100%;
     height: auto;
+
 }
 .hero h1{position: absolute;}
 
 .hero article{
     position: absolute;
-    text-align: center;}
+    text-align: center;
+}
 
 a:link {text-decoration: none;}
 
 article *:first-child {
-    
     width: 200px;
     float: right;
-
 }
 
 p{
