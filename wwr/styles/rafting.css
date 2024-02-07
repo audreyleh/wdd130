@@ -70,3 +70,10 @@ article *:first-child {
 p{
     padding: 10px;
 }
+
+header{
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	align-items: center;
+}
