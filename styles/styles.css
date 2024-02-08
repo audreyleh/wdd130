@@ -97,4 +97,6 @@ header, footer, .grid{
 
 .indent {
     padding-left: 2rem;
+    justify-content: space-evenly;
+
 }
