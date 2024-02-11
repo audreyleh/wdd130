@@ -129,6 +129,9 @@ form{
     display: grid;
 }
 
+.title_employees{
+    border-top: 3px solid #000;
+}
 .employees{
     width: 240px;
     height: auto;
@@ -137,9 +140,15 @@ form{
 }
 
 .information h2{
+    border-top: 3px solid #000;
     text-align: left;
 }
 
 .title_contact_us{
     background-color: rgb(156, 172, 118);
+}
+.form{
+    padding: 20px;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
 }
