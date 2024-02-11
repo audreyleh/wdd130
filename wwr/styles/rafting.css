@@ -17,6 +17,7 @@
 }
 
 h1, h2, h3, h4, h5, h6{
+    text-align: center;
     font-family: var(--headinf-font);
     color: var(--primary-color)
 }
@@ -31,14 +32,17 @@ h1, h2, h3, h4, h5, h6{
 } 
 
 body {
+    height: 100%;
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    max-width: auto;
     padding: 20px;
+    background-color: aliceblue;
+    
 }
 
 .hero img {
     display: block;
-    width: auto;
+    width: 1900px;
     height: auto;
 }
 
@@ -58,7 +62,7 @@ body {
     text-align: center;
     background-color: rgba(10,23,55,0.3);
     color: rgb(235, 239, 243);
-    width: 900px;
+    width: auto;
 }
 
 a:link {text-decoration: none;}
@@ -77,18 +81,19 @@ header{
 	display: grid;
 	grid-template-columns: 300px 300px;
 	align-items: center;
-
+    max-width: auto;
 }
 
 header nav{
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 1500px;
 }
 
 footer{
     display: flex;
-    align-content: center;
+    text-align: center;
+    padding: 3rem;
 }
 
 .social_links img{
@@ -102,11 +107,39 @@ footer{
     display: flex;
     align-content: center;
     flex-direction: row;
+    width: auto;
+    text-align: center;
+    flex-flow: row;
+    margin-left: 200px;
 }
 
 .rivers img{
-
     width: 240px;
     height: auto;
 }
 
+
+form{
+    width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px black;
+    border-radius: 1rem;
+    background-color: rgb(170, 184, 196);
+    display: grid;
+}
+
+.employees{
+    width: 240px;
+    height: auto;
+    display: flex;
+    text-align: center;
+}
+
+.information h2{
+    text-align: left;
+}
+
+.title_contact_us{
+    background-color: rgb(156, 172, 118);
+}
