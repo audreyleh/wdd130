@@ -84,7 +84,7 @@ header{
 	display: flex;
 	grid-template-columns: 300px 300px;
 	align-items: center;
-    background-color: #a1d1bd 0.3;
+    background-color: #a1d1bdef 0.3;
 }
 
 header nav{
